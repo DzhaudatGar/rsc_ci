@@ -7,9 +7,9 @@ version: 0.2
 
 env:
   variables:
-    AWS_DEFAULT_REGION: "us-west-2"
-    AWS_ACCOUNT_ID    : "032823347814"
-    ECR_REPO_NAME     : "webapp"
+    AWS_DEFAULT_REGION: "us-east-1"
+    AWS_ACCOUNT_ID    : "122570265265"
+    ECR_REPO_NAME     : "radiosystems/dev"
     ECR_IMAGE_TAG     : "latest"
 
 phases:
