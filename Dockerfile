@@ -8,6 +8,7 @@ RUN sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list && \
     apt install -y sudo && \
     apt install -y make cmake ninja-build git && \
     apt install -y python-is-python3 pip python3-serial python3-future python3-cryptography && \
+    apt install -y  wget \
     python -m pip install --upgrade pip && \
     python -m pip install --upgrade setuptools && \
     python -m pip install 'pyparsing>=2.0.3,<2.4.0' && \
