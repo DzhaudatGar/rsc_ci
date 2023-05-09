@@ -32,7 +32,7 @@ RUN mkdir /home/build/Downloads
 RUN mkdir /home/build/esp
 #COPY ./xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz /home/build/Downloads/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz
 RUN wget -P /home/build/Downloads https://dl.espressif.com/dl/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz
-RUN ls /home/build/esp
+#RUN ls /home/build/esp
 RUN tar xzf /home/build/Downloads/xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz --directory /home/build/esp/
 RUN rm -rf /home/build/Downloads
 
